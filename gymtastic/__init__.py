@@ -1,1 +1,0 @@
-"""Gymtastic MVP package."""
