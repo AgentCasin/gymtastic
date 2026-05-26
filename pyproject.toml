@@ -1,0 +1,11 @@
+[project]
+name = "gymtastic"
+version = "0.1.0"
+description = "RFID and ESP32-enabled smart gym management MVP"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-fasthtml",
+    "monsterui",
+    "sqlmodel",
+]
