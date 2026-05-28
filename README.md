@@ -7,21 +7,18 @@ simulated smart lockers with real-time congestion tracking.
 
 We have a test feature  (Start up test) that works as follow:
 
-**cd into the installation folder**
-**RUN**
-```
-uv run test_app.py
-```
-Then you can proceed to the main program
-```
-uv run main.py
-```
 
 We use **uv** for fast dependency management and execution.
 **Install dependencies:**
-
+**cd into the installation folder**
 ```
 uv sync
+```
+We have a test feature  (Start up test) that works as follow:
+
+**Run the startup test**
+```
+uv run test_app.py
 ```
 **Run the app:**
 
